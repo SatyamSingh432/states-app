@@ -139,24 +139,7 @@ export default function MultipleSelectPlaceholder() {
                             paddingRight: '6px',
                         }}
                     >
-                        You Selected
-                    </span>
-                    <span
-                        style={{
-                            fontSize: '30px',
-                            fontWeight: '600',
-                            fontFamily: 'Sans-serif',
-                        }}
-                    >
-                        {`${cityName},`}
-                    </span>
-                    <span
-                        style={{
-                            fontSize: '20px',
-                            fontWeight: '600',
-                            fontFamily: 'Sans-serif',
-                        }}
-                    >
+                        You Selected {`${cityName},`}{' '}
                         {` ${stateName}, ${countryName}`}
                     </span>
                 </p>
