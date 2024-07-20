@@ -138,7 +138,7 @@ export default function MultipleSelectPlaceholder() {
                         paddingRight: '6px',
                     }}
                 >
-                    You Selected {`${cityName},`}{' '}
+                    You selected {`${cityName},`}
                     {` ${stateName}, ${countryName}`}
                 </span>
             )}
